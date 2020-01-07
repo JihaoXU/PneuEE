@@ -1,2 +1,2 @@
-# Pneumatic-End-Effector-for-Robotic-Polishing
-The control of a robotic end effector for polishing is conducted, which is actuated by a pneumatic artificial muscle.
+### A pneumatic end effector for robotic polishing
+The control of the UR10 robot in this project is based on the python library [python-urx](https://github.com/SintefManufacturing/python-urx).
