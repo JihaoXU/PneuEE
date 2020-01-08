@@ -1,0 +1,2 @@
+### A pneumatic end effector for robotic polishing
+The control of the UR10 robot in this project is based on the python library [python-urx](https://github.com/SintefManufacturing/python-urx) (by Sintef Raufoss Manufacturing). The kinematics simulation is based on the [Robotics Toolbox](https://github.com/petercorke/robotics-toolbox-matlab) (by P.I Corke), and D-H parameters of UR10 robot are from the [support](https://www.universal-robots.com/how-tos-and-faqs/faq/ur-faq/parameters-for-calculations-of-kinematics-and-dynamics-45257/) of Universal Robots.
