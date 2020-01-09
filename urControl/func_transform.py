@@ -3,14 +3,14 @@ import numpy as np
 
 def transform(localPoint, dz=47):
     """
-    :param localPoint: ndarray, ndim=3,unit:m
+    :param localPoint: ndarray, ndim=3,unit:mm
     :param z:scalar,unit:mm
     :return ur_pose: ndarray,ndim=6,unit:m,rad
     """
     localPoint = localPoint / 1000.0
     dz = dz / 1000.0
     dz = max(-0.1, min(0.1, dz))
-    # ====identication results======
+    # ====identification results======
     originPoint = np.array([-0.031226046015108557, 0.6978767520441147, 0.19248178487431694])
     originPoint[2] += dz
 
